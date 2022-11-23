@@ -1,0 +1,13 @@
+
+I, [2022-11-23T18:44:28.458806 #3278]  INFO -- : Request: GET /tests/
+I, [2022-11-23T18:44:28.459021 #3278]  INFO -- : Handler: NilClass # 
+I, [2022-11-23T18:44:28.459043 #3278]  INFO -- : Parameters: 
+I, [2022-11-23T18:44:28.459065 #3278]  INFO -- : 404 [text/plain] 
+I, [2022-11-23T18:44:33.938727 #3278]  INFO -- : Request: GET /tests
+I, [2022-11-23T18:44:33.939438 #3278]  INFO -- : Handler: TestsController # index
+I, [2022-11-23T18:44:33.939474 #3278]  INFO -- : Parameters: {}
+I, [2022-11-23T18:44:33.939494 #3278]  INFO -- : 200 [text/html] tests/index.html.erb
+I, [2022-11-23T18:44:37.779496 #3278]  INFO -- : Request: GET /tests/3
+I, [2022-11-23T18:44:37.779619 #3278]  INFO -- : Handler: TestsController # show
+I, [2022-11-23T18:44:37.779944 #3278]  INFO -- : Parameters: {:id=>"3"}
+I, [2022-11-23T18:44:37.779969 #3278]  INFO -- : 200 [text/html] tests/show.html.erb
